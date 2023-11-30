@@ -1,19 +1,29 @@
+@font-face {
+    font-family: "pixel1";
+    src: url("pixel1.ttf");
+}
+
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Your Font', sans-serif;
+    font-family: 'pixel1', sans-serif;
+    background-color: lightskyblue;
   }
   
   header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 1em;
   }
   
   nav ul {
     list-style: none;
-    display: flex;
-    gap: 1em;
+    text-align: right;
+  }
+
+  nav ul li {
+    display: inline;
+    padding: 1.5rem;
   }
   
   nav ul li a {
@@ -21,6 +31,8 @@ body, html {
     color: #333;
   }
   
+
+
   /* Flexbox for sections */
   .section {
     display: flex;
