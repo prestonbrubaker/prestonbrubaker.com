@@ -17,17 +17,17 @@ body, html {
     padding: 1em;
   }
   
-  nav ul {
+  .navigation nav ul {
     list-style: none;
     text-align: right;
   }
 
-  nav ul li {
+  .navigation nav ul li {
     display: inline;
     padding: 1.5rem;
   }
   
-  nav ul li a {
+  .navigation nav ul li a {
     text-decoration: none;
     color: #333;
   }
@@ -38,6 +38,11 @@ body, html {
     justify-content: flex-start;
     padding: 2rem;
     text-shadow: -0.25rem 0.3rem gray;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: column;
   }
 
 
